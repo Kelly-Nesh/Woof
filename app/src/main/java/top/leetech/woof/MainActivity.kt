@@ -106,10 +106,11 @@ fun DogInformation(
         Text(
             text = stringResource(R.string.years_old, dogAge),
             style = MaterialTheme.typography.bodyLarge,
-            color = MaterialTheme.colorScheme.background
         )
     }
 }
+
+
 
 @Preview(showBackground = true)
 @Composable
@@ -121,7 +122,7 @@ fun WoofPreview() {
     }
 }
 
-//@Preview
+@Preview
 @Composable
 fun WoofDarkThemePreview() {
     WoofTheme(darkTheme = true) {
